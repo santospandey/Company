@@ -91,4 +91,99 @@ main{
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    font-weight: bold;
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.premiumProduct, .onTimeDelivery, .customerSatisfaction{
+    display: flex;
+    flex: 1;    
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon{    
+    width: 15%;
+    margin: auto;
+    text-align: right;
+    color: #FF8C00;
+}
+
+.text{    
+    width: 70%;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#video{
+    padding-top: 20px;
+    display: flex;
+    margin: auto;   
+}
+
+#pricing{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.basicUserAccess, .premiumUserAccess, .adminAccess{
+    border: 1px solid #000;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.basicUserAccess button, .premiumUserAccess button, .adminAccess button{
+    margin: auto;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #F1C40F;    
+    border: 1px solid #ddd;
+    border-radius: 5px;    
+}
+
+.basicUserAccess button:hover, .premiumUserAccess button:hover, .adminAccess button:hover{
+    background: #FF8C00;
+    cursor: pointer;
+}
+
+.userHeading{
+    background: #DDDDDD;
+    min-height: 2em;
+    flex: 1;
+    display: flex;
+    text-align: center;
+}
+
+.userHeading h3{
+    flex: 1;
+    margin: auto;
+}
+
+.userBody .price{
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+}
+
+.userBody p{
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5;
 }
